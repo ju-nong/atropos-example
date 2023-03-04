@@ -17,7 +17,7 @@ function Home() {
         // onLeave={() => console.log("Leave")}
         // onRotate={(x, y) => console.log("Rotate", x, y)}
       >
-        <img src="/images/atropos-bg.svg" />
+        <img className="background" src="/images/atropos-bg.svg" />
         <img src="/images/atropos-bg.svg" data-atropos-offset="-4.5" />
         <img
           className="esul-head custom"

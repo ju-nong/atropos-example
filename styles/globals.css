@@ -15,14 +15,18 @@
 }
 
 .my-atropos {
-  width: 320px;
-  height: 160px;
   cursor: pointer;
+  position: relative;
+  width: 80vw;
+
+  /* width: 820px;
+  height: 497px; */
+}
+
+.my-atropos .background {
+  width: 100%;
 
   position: relative;
-
-  width: 820px;
-  height: 497px;
 }
 
 .my-atropos::after {
