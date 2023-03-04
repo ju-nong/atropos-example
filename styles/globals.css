@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.atropos-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-atropos {
+  width: 320px;
+  height: 160px;
+  cursor: pointer;
+
+  position: relative;
+
+  width: 820px;
+  height: 497px;
+}
+
+.my-atropos::after {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "마우스 올려봐요";
+}
+
+.my-atropos img {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+}
+
+.custom {
+  width: 30% !important;
+  height: 30% !important;
+  top: 10% !important;
+}
+
+.custom.esul-head {
+  left: 20%;
+}
+
+.custom.yong-sook-head {
+  left: 60%;
+  top: 65% !important;
+}
