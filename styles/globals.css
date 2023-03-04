@@ -17,15 +17,11 @@
 .my-atropos {
   cursor: pointer;
   position: relative;
-  width: 80vw;
-
-  /* width: 820px;
-  height: 497px; */
+  width: 60vw;
 }
 
 .my-atropos .background {
   width: 100%;
-
   position: relative;
 }
 
