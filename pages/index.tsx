@@ -56,9 +56,13 @@ function Home() {
                             data-atropos-offset="4"
                         />
                         <img
-                            src="/images/atropos-logo-en.svg"
+                            src="/images/yongsook-logo.png"
                             data-atropos-offset="5"
                         />
+                        {/* <img
+                            src="/images/atropos-logo-en.svg"
+                            data-atropos-offset="5"
+                        /> */}
                     </Atropos>
                 </div>
 
@@ -98,7 +102,7 @@ function Home() {
                                 data-atropos-offset="4"
                             />
                             <img
-                                src="/images/atropos-logo-en.svg"
+                                src="/images/box-logo.png"
                                 data-atropos-offset="5"
                             />
                         </div>
