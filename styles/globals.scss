@@ -56,15 +56,21 @@ $y-side-color: linear-gradient(
                         width: 30% !important;
                         height: 30% !important;
                         top: 10% !important;
+                    }
 
-                        &.esul-head {
-                            left: 20%;
-                        }
+                    &.esul-head {
+                        left: 20%;
+                    }
 
-                        &.yong-sook-head {
-                            left: 60%;
-                            top: 65% !important;
-                        }
+                    &.yong-sook-head {
+                        left: 50%;
+                        top: 65% !important;
+                    }
+
+                    &.ari {
+                        left: 30%;
+                        top: 45% !important;
+                        width: 50% !important;
                     }
 
                     &.background {

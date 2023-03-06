@@ -98,6 +98,11 @@ function Home() {
                                 data-atropos-offset="2"
                             />
                             <img
+                                className="ari"
+                                src="/images/ari.png"
+                                data-atropos-offset="3"
+                            />
+                            <img
                                 src="/images/atropos-forest-front.svg"
                                 data-atropos-offset="4"
                             />
