@@ -1,11 +1,9 @@
-import { useState } from "react";
 import Atropos from "atropos/react";
 import { useRouter } from "next/router";
 import { SideContainer } from "@/components/SideContainer";
 
 function Home() {
     const router = useRouter();
-    const [reverse, setReverse] = useState(false);
 
     const moveProfile = () => router.replace("https://github.com/ju-nong");
 
@@ -66,9 +64,9 @@ function Home() {
                     </Atropos>
                 </div>
 
-                <div className="atropos-main">
+                <div className="atropos-main rounded">
                     <Atropos
-                        className="atropos-element box"
+                        className="atropos-element box "
                         shadow={false}
                         stretchX={1000}
                         stretchY={1000}

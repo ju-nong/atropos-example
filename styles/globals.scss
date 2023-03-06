@@ -1,15 +1,13 @@
 $side-width: 100px;
 $x-side-color: linear-gradient(
-    rgba(88, 23, 166, 1) 0%,
-    rgba(187, 99, 225, 1) 50%,
-    rgba(80, 38, 171, 1) 100%
+    rgb(91, 26, 168) 2%,
+    rgb(182, 96, 222) 25%,
+    rgb(89, 44, 178) 50%,
+    rgb(82, 41, 174) 55%,
+    rgb(51, 10, 106) 100%
 );
-$y-side-color: linear-gradient(
-    90deg,
-    rgba(88, 23, 166, 1) 0%,
-    rgba(187, 99, 225, 1) 50%,
-    rgba(80, 38, 171, 1) 100%
-);
+$top-side-background: rgb(91, 26, 168);
+$bottom-side-background: rgb(51, 10, 106);
 
 * {
     margin: 0;
@@ -31,6 +29,7 @@ $y-side-color: linear-gradient(
     .atropos-main {
         position: relative;
         width: 40vw;
+        transition: all 0.3s;
 
         .atropos-element {
             position: relative;
@@ -38,6 +37,7 @@ $y-side-color: linear-gradient(
             cursor: pointer;
 
             .atropos-inner {
+                backface-visibility: hidden;
                 .front-continer {
                     position: relative;
                     width: 100%;
@@ -99,7 +99,6 @@ $y-side-color: linear-gradient(
             .y-side {
                 width: 100%;
                 height: $side-width;
-                background: $y-side-color;
             }
 
             .left-side {
@@ -118,12 +117,14 @@ $y-side-color: linear-gradient(
                 top: 0;
                 transform: translateZ(-$side-width) rotateX(90deg);
                 transform-origin: center top;
+                background: $top-side-background;
             }
 
             .bottom-side {
                 bottom: 0;
                 transform: translateZ(-$side-width) rotateX(-90deg);
                 transform-origin: center bottom;
+                background: $bottom-side-background;
             }
 
             &.rounded {
